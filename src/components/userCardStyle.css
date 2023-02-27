@@ -1,0 +1,41 @@
+.user_card_container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card_itoms {
+    margin: 0 auto;
+    display: flex;
+    gap: 4px;
+    width: 95%;
+  }
+  .card_data {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  .card_data img {
+    width: 70px;
+    height: 70px;
+  }
+  .card_data h3,
+  h4,
+  p {
+    color: #321979;
+    margin-bottom: 7px;
+  }
+  
+  @media (max-width: 768px) {
+    .card_itoms {
+      flex-direction: column;
+    }
+    .card_data {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+.nav__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+}
+.nav__container li {
+  margin: 1rem;
+  color: #fff;
+}
+.nav__container li a {
+  color: #fff;
+  font-size: 18px;
+}
+.nav__container li a:hover {
+  color: rgb(85, 223, 211);
+}
